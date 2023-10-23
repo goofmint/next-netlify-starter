@@ -18,11 +18,11 @@ type functionReponse = {
 export default function IndexPage() {
   // フォームの初期値
   const defaultValue: formData = {
-    company: '株式会社MOONGIFT',
-    name: '中津川篤司',
-    email: 'atsushi@moongift.co.jp',
-    type: '会社について',
-    message: 'お問い合わせ内容',
+    company: '',
+    name: '',
+    email: '',
+    type: '',
+    message: '',
   };
 
   const options: string[] = ['会社について', 'サービスについて', 'その他'];
