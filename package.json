@@ -8,6 +8,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "blastengine": "^2.2.9",
     "cypress": "^10.0.3",
     "next": "^12.1.5",
     "react": "^18.0.0",
